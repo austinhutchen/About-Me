@@ -28,16 +28,19 @@ function App() {
             <b>NOTABLE PROJECTS:</b>
           </h2>
           <ul>
-          <li>
-          <a href="https://github.com/austinhutchen/levelquest.git">Zelda clone (c++)</a>
-          </li>
             <li>
-            <a href="https://github.com/austinhutchen/levelquest.git">Functional calculator App (Flutter/dart)</a>
-          </li>
+              <a href="https://github.com/austinhutchen/levelquest.git">
+                Zelda clone (c++)
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/austinhutchen/IOS-calculator-app">
+                Functional calculator App (Flutter/dart)
+              </a>
+            </li>
           </ul>
         </p>
-         
-     
+
         <hr></hr>
       </footer>
     </div>
