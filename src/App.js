@@ -20,7 +20,7 @@ function App() {
       </header>
       <hr></hr>
       <body>
-        <img src={img} width="500" height="500" />
+        <img src={img} width="400" height="400" />
       </body>
       <hr></hr>
       <footer>
