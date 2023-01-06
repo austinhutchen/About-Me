@@ -44,6 +44,7 @@
  
  
  }
+ 
  body{
    background-color: whitesmoke;
    display:inline;
@@ -61,7 +62,7 @@
  
  .hlight{
   background: linear-gradient(180deg, rgba(255,255,255,0) 65%, green 65%);
-  display: inline;
+  display:inline;
  }
  .test{
   background: repeating-linear-gradient(60deg,blue ,green)

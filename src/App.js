@@ -1,6 +1,8 @@
 import "./App.css";
 import img from "./images/standing.jpg";
+
 const App = () => {
+  // javascript goes here
   return (
     <div className="App">
       <header>
@@ -19,10 +21,19 @@ const App = () => {
       </header>
       <hr></hr>
       <body>
-        <img src={img} width="300" height="300" />
+        <img src={img} width="300" height="300" align="left" />
+        <h2 className="hlight">Work Experience:</h2>
+        <hr></hr>
+        <section>
+          <b>
+            <u>Mobius Materials, Marketing Consultant (Summer 2020)</u>
+          </b>
+          <p>Worked as a marketing consultant, </p>
+        </section>
       </body>
       <hr></hr>
       <footer>
+        <hr></hr>
         <p className="center">
           <h2 className="hlight">
             <b>NOTABLE PROJECTS:</b>
@@ -40,7 +51,6 @@ const App = () => {
             </li>
           </ul>
         </p>
-
         <hr></hr>
       </footer>
     </div>
