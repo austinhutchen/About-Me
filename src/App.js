@@ -2,7 +2,7 @@ import "./App.css";
 import img from "./images/standing.jpg";
 // components
 // header component of page
-const Header = () => {
+const Head = () => {
   return (
     <>
       <header>
@@ -73,7 +73,7 @@ const App = () => {
   // javascript goes here
   return (
     <div className="App">
-      <Header />
+      <Head />
       <Body />
       <Foot />
     </div>
