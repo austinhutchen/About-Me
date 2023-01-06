@@ -1,5 +1,5 @@
 import "./App.css";
-
+import img from "./images/standing.jpg"
 function App() {
   return (
     <div className="App">
@@ -20,7 +20,7 @@ function App() {
       </header>
       <hr></hr>
       <body>
-        <img src="./test/public/images/standing.jpg" />
+        <img src={img} width="500" height="500"/>
       </body>
       <hr></hr>
       <footer>
