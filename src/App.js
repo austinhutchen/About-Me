@@ -1,10 +1,10 @@
 import "./App.css";
 import img from "./images/standing.jpg";
-
-const App = () => {
-  // javascript goes here
+// components
+// header component of page
+const Header = () => {
   return (
-    <div className="App">
+    <>
       <header>
         <u>
           <h1 className="test">Austin Hutchen</h1>
@@ -20,6 +20,13 @@ const App = () => {
         </i>
       </header>
       <hr></hr>
+    </>
+  );
+};
+
+const Body = () => {
+  return (
+    <>
       <body>
         <img src={img} width="300" height="300" align="left" />
         <h2 className="hlight">Work Experience:</h2>
@@ -32,27 +39,43 @@ const App = () => {
         </section>
       </body>
       <hr></hr>
-      <footer>
-        <hr></hr>
-        <p className="center">
-          <h2 className="hlight">
-            <b>NOTABLE PROJECTS:</b>
-          </h2>
-          <ul>
-            <li>
-              <a href="https://github.com/austinhutchen/levelquest.git">
-                Zelda clone (c++)
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/austinhutchen/IOS-calculator-app">
-                Functional calculator App (Flutter/dart)
-              </a>
-            </li>
-          </ul>
-        </p>
-        <hr></hr>
-      </footer>
+    </>
+  );
+};
+
+const Foot = () => {
+  return (
+    <footer>
+      <hr></hr>
+      <p className="center">
+        <h2 className="hlight">
+          <b>NOTABLE PROJECTS:</b>
+        </h2>
+        <ul>
+          <li>
+            <a href="https://github.com/austinhutchen/levelquest.git">
+              Zelda clone (c++)
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/austinhutchen/IOS-calculator-app">
+              Functional calculator App (Flutter/dart)
+            </a>
+          </li>
+        </ul>
+      </p>
+      <hr></hr>
+    </footer>
+  );
+};
+// main app
+const App = () => {
+  // javascript goes here
+  return (
+    <div className="App">
+      <Header />
+      <Body />
+      <Foot />
     </div>
   );
 };
