@@ -1,6 +1,6 @@
 import "./App.css";
 import img from "./images/standing.jpg";
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header>
@@ -19,7 +19,7 @@ function App() {
       </header>
       <hr></hr>
       <body>
-        <img src={img} width="400" height="400" />
+        <img src={img} width="300" height="300" />
       </body>
       <hr></hr>
       <footer>
@@ -45,6 +45,6 @@ function App() {
       </footer>
     </div>
   );
-}
+};
 
 export default App;
