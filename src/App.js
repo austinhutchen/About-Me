@@ -1,5 +1,5 @@
 import "./App.css";
-import img from "./images/standing.jpg"
+import img from "./images/standing.jpg";
 function App() {
   return (
     <div className="App">
@@ -20,22 +20,20 @@ function App() {
       </header>
       <hr></hr>
       <body>
-        <img src={img} width="500" height="500"/>
+        <img src={img} width="500" height="500" />
       </body>
       <hr></hr>
       <footer>
         <p className="center">
-          <h2 className="hlight">NOTABLE PROJECTS:</h2>
-          <li>Zelda clone (c++)</li>
+          <h2 className="hlight">
+            <b>NOTABLE PROJECTS:</b>
+          </h2>
+          <li>
+            <a href="https://github.com/austinhutchen/levelquest.git">Zelda clone (c++)</a>
+            <a href="https://github.com/austinhutchen/levelquest.git">Functional calculator App (Flutter/dart)</a>
+          </li>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          My github
-        </a>
+     
         <hr></hr>
       </footer>
     </div>
