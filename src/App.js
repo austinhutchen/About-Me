@@ -1,7 +1,7 @@
 import "./App.css";
 import img from "./images/standing.jpg";
+
 // components
-// header component of page
 const Head = () => {
   return (
     <>
@@ -69,7 +69,7 @@ const Foot = () => {
   );
 };
 // main app
-const App = () => {
+const MainApp = () => {
   // javascript goes here
   return (
     <div className="App">
@@ -80,4 +80,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default MainApp;
