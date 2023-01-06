@@ -20,9 +20,8 @@ const Head = () => {
         </i>
         <h3>
           <a href="https://catalog.colorado.edu/undergraduate/colleges-schools/engineering-applied-science/programs-study/computer-science/computer-science-bachelor-science-bscs/">
-          CU BOULDER BSCS STUDENT - CO 2025 
+            CU BOULDER BSCS STUDENT - CO 2025
           </a>
-
         </h3>
       </header>
       <hr></hr>
@@ -33,8 +32,8 @@ const Head = () => {
 const Body = () => {
   return (
     <>
+      <img src={img} width="300" height="300" align="left" />
       <body>
-        <img src={img} width="200" height="300" align="left" />
         <h2 className="hlight">Work Experience:</h2>
         <hr></hr>
         <ul>
