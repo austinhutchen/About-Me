@@ -18,6 +18,12 @@ const Head = () => {
           Prospective software engineer with passion for development and
           experience working with startups!
         </i>
+        <h3>
+          <a href="https://catalog.colorado.edu/undergraduate/colleges-schools/engineering-applied-science/programs-study/computer-science/computer-science-bachelor-science-bscs/">
+          CU BOULDER BSCS STUDENT - CO 2025 
+          </a>
+
+        </h3>
       </header>
       <hr></hr>
     </>
@@ -28,15 +34,34 @@ const Body = () => {
   return (
     <>
       <body>
-        <img src={img} width="300" height="300" align="left" />
+        <img src={img} width="200" height="300" align="left" />
         <h2 className="hlight">Work Experience:</h2>
         <hr></hr>
-        <section>
-          <b>
-            <u>Mobius Materials, Marketing Consultant (Summer 2020)</u>
-          </b>
-          <p>Worked as a marketing consultant, </p>
-        </section>
+        <ul>
+          <li>
+            <b>
+              <u>
+                Mobius Materials, Marketing Consultant (Summer 2020-Fall 2020)
+              </u>
+            </b>
+            <article>
+              <p>Worked as a marketing consultant, </p>
+              <p>sss</p>
+              <p>sss</p>
+              <p>sss</p>
+              <p>sss</p>
+              <p>sss</p>
+              <p>sss</p>
+              <p>sss</p>
+              <p>sss</p>
+              <p>sss</p>
+              <p>sss</p>
+
+              <p>sss</p>
+              <p>sss</p>
+            </article>
+          </li>
+        </ul>
       </body>
       <hr></hr>
     </>
@@ -68,6 +93,7 @@ const Foot = () => {
     </footer>
   );
 };
+
 // main app
 const MainApp = () => {
   // javascript goes here
