@@ -90,6 +90,11 @@ const Foot = () => {
           <a href="https://github.com/austinhutchen/About-Me.git">
               This Webpage! (REACT/JS)
             </a>
+            <li>
+            <a href="https://github.com/austinhutchen/weather-native.git">
+            Weather app using react NATIVE
+          </a>
+            </li>
             </li>
         </ul>
       </p>
