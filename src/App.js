@@ -92,7 +92,7 @@ const Foot = () => {
             </a>
             <li>
             <a href="https://github.com/austinhutchen/weather-native.git">
-            Weather app using react NATIVE
+            Weather app (REACT NATIVE) 
           </a>
             </li>
             </li>
