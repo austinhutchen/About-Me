@@ -32,10 +32,9 @@ const Head = () => {
 const Body = () => {
   return (
     <>
-    <div style={{margin:-5}}>
-    <img src={img} width="200" height="280" align="left" />
-    </div>
-
+      <div style={{ margin: -5 }}>
+        <img src={img} width="200" height="280" align="left" />
+      </div>
       <body>
         <h2 className="hlight">Work Experience:</h2>
         <hr></hr>
@@ -58,7 +57,6 @@ const Body = () => {
               <p>sss</p>
               <p>sss</p>
               <p>sss</p>
-
               <p>sss</p>
               <p>sss</p>
             </article>
