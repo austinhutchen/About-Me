@@ -71,10 +71,12 @@ const Foot = () => {
   return (
     <footer>
       <hr></hr>
-      <p className="center">
+      <div style={{ margin: 15 }}>
         <h2 className="hlight">
           <b>NOTABLE PROJECTS:</b>
         </h2>
+      </div>
+      <div style={{ margin: 15 }}>
         <ul>
           <li>
             <a href="https://github.com/austinhutchen/levelquest.git">
@@ -87,17 +89,23 @@ const Foot = () => {
             </a>
           </li>
           <li>
-          <a href="https://github.com/austinhutchen/About-Me.git">
+            <a href="https://github.com/austinhutchen/About-Me.git">
               This Webpage (REACT/JS)
             </a>
             <li>
-            <a href="https://github.com/austinhutchen/weather-native.git">
-            Weather app (REACT NATIVE) 
-          </a>
+              <a href="https://github.com/austinhutchen/weather-native.git">
+                Weather app (REACT NATIVE)
+              </a>
             </li>
+            <li>
+              <a href="https://github.com/austinhutchen/redditsearch">
+                Reddit search/statistics engine (PYTHON)
+              </a>
             </li>
+          </li>
         </ul>
-      </p>
+      </div>
+
       <hr></hr>
     </footer>
   );
