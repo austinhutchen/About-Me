@@ -78,17 +78,17 @@ const Foot = () => {
         <ul>
           <li>
             <a href="https://github.com/austinhutchen/levelquest.git">
-              Zelda clone (c++)
+              Zelda clone (C++)
             </a>
           </li>
           <li>
             <a href="https://github.com/austinhutchen/IOS-calculator-app">
-              Functional calculator App (Flutter/dart)
+              Functional calculator App (FLUTTER/DART)
             </a>
           </li>
           <li>
           <a href="https://github.com/austinhutchen/About-Me.git">
-              This Webpage! (REACT/JS)
+              This Webpage (REACT/JS)
             </a>
             <li>
             <a href="https://github.com/austinhutchen/weather-native.git">
